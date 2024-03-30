@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.9;
 
-contract MyContract {
+contract CrowdFunding {
     struct Campaign {
         address owner;
         string title;
@@ -11,7 +11,7 @@ contract MyContract {
         uint256 amountCollected;
         string image;
         address[] donators;
-        address[] donations;
+        uint256[] donations;
     }
 
     mapping(uint256 => Campaign) public campaigns;
