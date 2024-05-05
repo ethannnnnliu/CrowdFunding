@@ -35,3 +35,5 @@ export const navlinks = [
     disabled: true,
   },
 ];
+
+export const CrowdFundingAddress = '0xC9047048F599E285462fD88CB4614bB888B0D99D';
